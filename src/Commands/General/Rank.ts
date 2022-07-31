@@ -43,7 +43,7 @@ export default class extends BaseCommand {
             'image',
             undefined,
             undefined,
-            `🏮 *Username:* ${username}#${tag}\n\n🌟 *Experience: ${experience} / ${requiredXpToLevelUp}*\n\n🥇 *Rank:* ${rank}\n\n🍀 *Level:* ${level}`
+            `🧧 *Username:* ${username}\n\n💮 ID: #${tag}\n\n🎈 *Exp: ${experience} / ${requiredXpToLevelUp}*\n\n🥇 *Rank:* ${rank}\n\n🍁 *Level:* ${level}`
         ))
     }
 }
