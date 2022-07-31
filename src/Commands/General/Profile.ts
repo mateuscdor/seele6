@@ -37,7 +37,7 @@ export default class extends BaseCommand {
             'image',
             undefined,
             undefined,
-            `🏮 *Username:* ${username}#${tag}\n\n🎫 *Bio:* ${bio}\n\n🌟 *Experience:* ${experience}\n\n🥇 *Rank:* ${rank}\n\n🍀 *Level:* ${level}\n\n👑 *Admin:* ${admin}\n\n🟥 *Banned:* ${this.client.utils.capitalize(
+            `🧧 *Username:* ${username}\n\n💮ID: #${tag}\n\n🔖 *Bio:* ${bio}\n\n🎈 *Exp:* ${experience}\n\n🥇 *Rank:* ${rank}\n\n🍁 *Level:* ${level}\n\n👑 *Admin:* ${admin}\n\n🔴 *Banned:* ${this.client.utils.capitalize(
                 `${banned || false}`
             )}`
         )
