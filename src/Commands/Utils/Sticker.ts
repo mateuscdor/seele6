@@ -22,6 +22,7 @@ export default class extends BaseCommand {
         const numbersFlag = this.client.utils
             .extractNumbers(flags.join(' ').replace(/\--/g, ''))
             .filter((number) => number > 0 && number <= 100)
+        M.react('🔄')
         const quality =
             numbersFlag[0] || this.getQualityFromType(flags.filter((flag) => this.qualityTypes.includes(flag))) || 50
         const categories = this.getStickerEmojisFromCategories(flags)
