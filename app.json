@@ -1,13 +1,13 @@
 {
-  "name": "WhatsApp-bot",
-  "description": "A WhatsApp Bot written in TypeScript using Baileys.",
+  "name": "Seele",
+  "description": "From this height, is it possible to see Cocolia and Sin?",
   "keywords": [
     "bot",
     "whatsapp",
     "whatsapp-bot",
     "whatsapp-anime-bot"
   ],
-  "logo": "https://raw.githubusercontent.com/LuckyYam/WhatsApp-bot/master/assets/images/whatsapp-bot.png",
+  "logo": "https://wallpapercave.com/wp/wp6452438.jpg",
   "website": "https://github.com/LuckyYam/WhatsApp-bot#readme",
   "repository": "https://github.com/LuckyYam/WhatsApp-bot.git",
   "success_url": "/",
