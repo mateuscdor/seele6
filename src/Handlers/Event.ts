@@ -38,7 +38,7 @@ export class EventHandler {
             return void null
         const text =
             event.action === 'add'
-                ? `- ${group.subject} -\n\n💈 *Group Description:*\n${
+                ? `- ${group.subject} -\n\n🟠 *Group Description:*\n${
                       group.description
                   }\n\nHope you follow the rules and have fun!\n\n*‣ ${event.participants
                       .map((jid) => `@${jid.split('@')[0]}`)
@@ -46,10 +46,10 @@ export class EventHandler {
                 : event.action === 'remove'
                 ? `Goodbye *${event.participants
                       .map((jid) => `@${jid.split('@')[0]}`)
-                      .join(', ')}* 👋🏻, we're probably not gonna miss you.`
+                      .join(', ')}* left the chat`
                 : event.action === 'demote'
-                ? `Ara Ara, looks like *@${event.participants[0].split('@')[0]}* got Demoted`
-                : `Congratulations *@${event.participants[0].split('@')[0]}*, you're now an admin`
+                ? `Well *@${event.participants[0].split('@')[0]}* you got Demoted`
+                : `Well *@${event.participants[0].split('@')[0]}*, you're now an admin`
         if (event.action === 'add') {
             let imageUrl: string | undefined
             try {
@@ -75,7 +75,7 @@ export class EventHandler {
     public sendMessageOnJoiningGroup = async (group: { subject: string; jid: string }): Promise<void> => {
         this.client.log(`${chalk.blueBright('JOINED')} ${chalk.cyanBright(group.subject)}`)
         return void (await this.client.sendMessage(group.jid, {
-            text: `Thanks for adding me in this group. Please use *${this.client.config.prefix}help* to get started.`
+            text: `Hello hoomans, i'm seele. Please use *${this.client.config.prefix}help* see the available commands.`
         }))
     }
 }
