@@ -1,8 +1,8 @@
 {
-  "name": "whatsapp-bot",
+  "name": "Seele",
   "version": "0.0.1",
-  "description": "A WhatsApp bot written in TypeScript using Baileys",
-  "author": "Lucky Yambem",
+  "description": "From this height, is it possible to see Cocolia and Sin?",
+  "author": "Synbee",
   "main": "dist/bot.js",
   "keywords": [
     "bot",
@@ -17,7 +17,7 @@
     "postinstall": "yarn build"
   },
   "bugs": {
-    "url": "https://github.com/LuckyYam/WhatsApp-bot/issues"
+    "url": "https://youtu.be/dQw4w9WgXcQ"
   },
   "homepage": "https://github.com/LuckyYam/WhatsApp-bot",
   "repository": {
