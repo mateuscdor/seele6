@@ -38,10 +38,10 @@ export default class extends BaseCommand {
                 }
                 members.push(jid)
             }
-            for (let i = 0; i < mods.length; i++) text += `${i === 0 ? '\n\n' : '\n'}🌟 *@${mods[i].split('@')[0]}*`
-            for (let i = 0; i < admins.length; i++) text += `${i === 0 ? '\n\n' : '\n'}💈 *@${admins[i].split('@')[0]}*`
+            for (let i = 0; i < mods.length; i++) text += `${i === 0 ? '\n\n' : '\n'}❄️ *@${mods[i].split('@')[0]}*`
+            for (let i = 0; i < admins.length; i++) text += `${i === 0 ? '\n\n' : '\n'}🎖️ *@${admins[i].split('@')[0]}*`
             for (let i = 0; i < members.length; i++)
-                text += `${i === 0 ? '\n\n' : '\n'}🎗 *@${members[i].split('@')[0]}*`
+                text += `${i === 0 ? '\n\n' : '\n'}🔹 *@${members[i].split('@')[0]}*`
         }
         return void (await M.reply(
             text,
